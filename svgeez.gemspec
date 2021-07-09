@@ -1,12 +1,12 @@
 require_relative 'lib/svgeez/version'
 
 Gem::Specification.new do |spec|
-  spec.required_ruby_version = Gem::Requirement.new('>= 2.4', '< 2.8')
+  spec.required_ruby_version = Gem::Requirement.new('>= 3.0.2')
 
   spec.name          = 'svgeez'
   spec.version       = Svgeez::VERSION
-  spec.authors       = ['Jason Garber']
-  spec.email         = ['jason@sixtwothree.org']
+  spec.authors       = ['Jason Garber', 'Desmond Sadler']
+  spec.email         = ['jason@sixtwothree.org', 'desmond@tunelark.com']
 
   spec.summary       = 'Automatically generate an SVG sprite from a folder of SVG icons.'
   spec.description   = spec.summary
